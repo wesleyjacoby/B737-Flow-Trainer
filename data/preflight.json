@@ -1,25 +1,570 @@
 [
- {
-    "x": 37.55,
-    "y": 20.89,
-    "zoom": 1.8,
-    "label": "Flight Control Panel – Check",
-    "steps": [
-        "FLIGHT CONTROL switches – Guards closed",
-        "Verify that the flight control LOW PRESSURE lights are illuminated.",
-        "Flight SPOILER switches – Guards closed",
-        "YAW DAMPER switch – ON",
-        "Verify that the YAW DAMPER light is extinguished.",
-        "Verify that the standby hydraulic LOW QUANTITY light is extinguished.",
-        "Verify that the standby hydraulic LOW PRESSURE light is extinguished.",
-        "Verify that the STBY RUD ON light is extinguished.",
-        "ALTERNATE FLAPS master switch – Guard closed",
-        "ALTERNATE FLAPS position switch – OFF",
-        "Verify that the FEEL DIFF PRESS light is extinguished.",
-        "Verify that the SPEED TRIM FAIL light is extinguished.",
-        "Verify that the MACH TRIM FAIL light is extinguished.",
-        "Verify that the AUTO SLAT FAIL light is extinguished."
-    ],
-    "relative": true
-    }
+	{
+		"x": 37.55,
+		"y": 20.89,
+		"zoom": 1.8,
+		"label": "Flight Control Panel – Check",
+		"steps": [
+			"FLIGHT CONTROL switches – Guards closed",
+			"Verify that the flight control LOW PRESSURE lights are illuminated.",
+			"Flight SPOILER switches – Guards closed",
+			"YAW DAMPER switch – ON",
+			"Verify that the YAW DAMPER light is extinguished.",
+			"Verify that the standby hydraulic LOW QUANTITY light is extinguished.",
+			"Verify that the standby hydraulic LOW PRESSURE light is extinguished.",
+			"Verify that the STBY RUD ON light is extinguished.",
+			"ALTERNATE FLAPS master switch – Guard closed",
+			"ALTERNATE FLAPS position switch – OFF",
+			"Verify that the FEEL DIFF PRESS light is extinguished.",
+			"Verify that the SPEED TRIM FAIL light is extinguished.",
+			"Verify that the MACH TRIM FAIL light is extinguished.",
+			"Verify that the AUTO SLAT FAIL light is extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 37.55,
+		"y": 27.07,
+		"zoom": 1.8,
+		"label": "NAVIGATION Panel – Set",
+		"steps": [
+			"VHF NAV transfer switch – NORMAL",
+			"IRS transfer switch – NORMAL",
+			"FMC source select switch – NORMAL"
+		],
+		"relative": true
+	},
+	{
+		"x": 37.55,
+		"y": 29.31,
+		"zoom": 1.8,
+		"label": "DISPLAYS Panel – Set",
+		"steps": ["SOURCE selector – AUTO", "CONTROL PANEL select switch – NORMAL"],
+		"relative": true
+	},
+	{
+		"x": 37.55,
+		"y": 36.52,
+		"zoom": 1.8,
+		"label": "Fuel Panel – Set",
+		"steps": [
+			"• Verify that the ENG VALVE CLOSED lights are illuminated dim.",
+			"• Verify that the SPAR VALVE CLOSED lights are illuminated dim.",
+			"• Verify that the FILTER BYPASS lights are extinguished.",
+			"CROSSFEED selector – Closed",
+			"• Verify that the VALVE OPEN light is extinguished.",
+			"FUEL PUMP switches – OFF",
+			"• Verify that the center tank fuel pump LOW PRESSURE lights are extinguished.",
+			"• Verify that the main tank fuel pump LOW PRESSURE lights are illuminated."
+		],
+		"relative": true
+	},
+	{
+		"x": 45.5,
+		"y": 28.51,
+		"zoom": 1.8,
+		"label": "Electrical Panel – Set",
+		"steps": [
+			"BATTERY switch – Guard closed",
+			"CAB/UTIL power switch – ON",
+			"IFE/PASS SEAT power switch – ON",
+			"STANDBY POWER switch – Guard closed",
+			"• Verify that the STANDBY PWR OFF light is extinguished.",
+			"• Verify that the BAT DISCHARGE light is extinguished.",
+			"• Verify that the TR UNIT light is extinguished.",
+			"• Verify that the ELEC light is extinguished.",
+			"Generator drive DISCONNECT switches – Guards closed",
+			"• Verify that the DRIVE lights are illuminated.",
+			"BUS TRANSFER switch – Guard closed",
+			"• Verify that the TRANSFER BUS OFF lights are extinguished.",
+			"• Verify that the SOURCE OFF lights are extinguished.",
+			"• Verify that the GEN OFF BUS lights are illuminated."
+		],
+		"relative": true
+	},
+	{
+		"x": 45.5,
+		"y": 80.8,
+		"zoom": 1.8,
+		"label": "Overheat and Fire Protection Panel – Check",
+		"steps": [
+			"Do this check if the flight crew did not do the Electrical Power Up Supplementary procedure.",
+			"This check is needed once per flight day.",
+			"• Verify that the engine No. 1, APU, and engine No. 2 fire switches are in.",
+			"Alert ground personnel before the following test is accomplished:",
+			"OVERHEAT DETECTOR switches – NORMAL",
+			"TEST switch – Hold to FAULT/INOP",
+			"• Verify that the MASTER CAUTION lights are illuminated.",
+			"• Verify that the OVHT/DET annunciator is illuminated.",
+			"• Verify that the FAULT light is illuminated.",
+			"If the FAULT light fails to illuminate, the fault monitoring system is inoperative.",
+			"• Verify that the APU DET INOP light is illuminated.",
+			"Do not run the APU if the APU DET INOP light does not illuminate.",
+			"Note: The fire warning light flashes and the horn sounds on the APU ground control panel",
+			"when this test is done with the APU running.",
+			"This can be mistaken by the ground crew as an APU fire."
+		],
+		"relative": true
+	},
+	{
+		"x": 47.19,
+		"y": 80.8,
+		"zoom": 1.8,
+		"label": "Overheat and Fire Protection Panel – Check",
+		"steps": [
+			"TEST switch – Hold to OVHT/FIRE",
+			"• Verify that the fire warning bell sounds",
+			"• Verify that the master FIRE WARN lights are illuminated.",
+			"• Verify that the MASTER CAUTION lights are illuminated.",
+			"• Verify that the OVHT/DET annunciator is illuminated.",
+			"Master FIRE WARN light – Push",
+			"• Verify that the master FIRE WARN lights are extinguished.",
+			"• Verify that the fire warning bell cancels.",
+			"• Verify that the engine No. 1, APU and engine No. 2 fire switches stay illuminated.",
+			"• Verify that the engine No. 1 and engine No. 2 start lever lights stay illuminated.",
+			"• Verify that the ENG 1 OVERHEAT and ENG 2 OVERHEAT lights stay illuminated.",
+			"• Verify that the WHEEL WELL fire warning light stays illuminated."
+		],
+		"relative": true
+	},
+	{
+		"x": 59.07,
+		"y": 80.8,
+		"zoom": 1.8,
+		"label": "EXTINGUISHER TEST Switch – Check",
+		"steps": [
+			"TEST switch – Position to 1 and hold.",
+			"• Verify that the three green extinguisher test lights are illuminated.",
+			"TEST switch – Release",
+			"• Verify that the three green extinguisher test lights are extinguished.",
+			"Repeat for test position 2."
+		],
+		"relative": true
+	},
+	{
+		"x": 48.17,
+		"y": 41.15,
+		"zoom": 1.8,
+		"label": "APU Switch (as needed) – START",
+		"steps": [
+			"Note: If extended APU operation is needed on the ground and the airplane busses are powered",
+			"by AC electrical power, position an AC powered fuel pump ON. This extends the",
+			"service life of the APU fuel control unit.",
+			"Note: If fuel is loaded in the center tank, position the left center tank fuel pump switch ON",
+			"to prevent a fuel imbalance before takeoff.",
+			"CAUTION: Do not operate the center tank fuel pumps with the flight deck unattended.",
+			"When the APU GEN OFF BUS light is illuminated:",
+			"APU GENERATOR bus switches – ON",
+			"• Verify that the SOURCE OFF lights are extinguished.",
+			"• Verify that the TRANSFER BUS OFF lights are extinguished.",
+			"Note: Run the APU for two full minutes before using it as a bleed air source."
+		],
+		"relative": true
+	},
+	{
+		"x": 51.48,
+		"y": 26.47,
+		"zoom": 1.8,
+		"label": "EQUIPMENT COOLING Switches – NORM",
+		"steps": ["• Verify that the OFF lights are extinguished."],
+		"relative": true
+	},
+	{
+		"x": 51.48,
+		"y": 30.85,
+		"zoom": 1.8,
+		"label": "EMERGENCY EXIT LIGHTS Switch – Guard Closed",
+		"steps": ["• Verify that the NOT ARMED light is extinguished."],
+		"relative": true
+	},
+	{
+		"x": 51.48,
+		"y": 33.04,
+		"zoom": 1.8,
+		"label": "Passenger Signs – Set",
+		"steps": [
+			"NO SMOKING switch – AUTO or ON",
+			"FASTEN BELTS switch – AUTO or ON"
+		],
+		"relative": true
+	},
+	{
+		"x": 51.48,
+		"y": 38.86,
+		"zoom": 1.8,
+		"label": "Windshield WIPER Selectors – PARK",
+		"steps": ["• Verify that the windshield wipers are stowed."],
+		"relative": true
+	},
+	{
+		"x": 57.45,
+		"y": 18.12,
+		"zoom": 1.8,
+		"label": "WINDOW HEAT Switches – ON",
+		"steps": [
+			"Position switches ON at least 10 minutes before takeoff.",
+			"• Verify that the OVERHEAT lights are extinguished.",
+			"• Verify that the ON lights are illuminated (except at high ambient temperatures.), OR,",
+			"• Verify that the OFF lights are extinguished (except at high ambient temperatures.)"
+		],
+		"relative": true
+	},
+	{
+		"x": 57.45,
+		"y": 20.65,
+		"zoom": 1.8,
+		"label": "PROBE HEAT Switches – AUTO or OFF",
+		"steps": ["• Verify that all lights are illuminated."],
+		"relative": true
+	},
+	{
+		"x": 57.45,
+		"y": 25.08,
+		"zoom": 1.8,
+		"label": "ANTI-ICE Switches – OFF",
+		"steps": [
+			"WING ANTI-ICE Switch – OFF",
+			"• Verify that the VALVE OPEN lights are extinguished.",
+			"ENGINE ANTI-ICE Switches – OFF",
+			"• Verify that the COWL ANTI–ICE lights are extinguished.",
+			"• Verify that the COWL VALVE OPEN lights are extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 57.45,
+		"y": 28.51,
+		"zoom": 1.8,
+		"label": "Hydraulic Panel – Set",
+		"steps": [
+			"ENGINE HYDRAULIC PUMPS switches – ON",
+			"• Verify that the LOW PRESSURE lights are illuminated.",
+			"ELECTRIC HYDRAULIC PUMPS switches – OFF",
+			"• Verify that the OVERHEAT lights are extinguished.",
+			"• Verify that the LOW PRESSURE lights are illuminated."
+		],
+		"relative": true
+	},
+	{
+		"x": 65.82,
+		"y": 24.68,
+		"zoom": 1.8,
+		"label": "Air Conditioning Panel – Set",
+		"steps": [
+			"AIR TEMPERATURE source selector – As needed",
+			"TRIM AIR switch – ON",
+			"• Verify that the ZONE TEMP lights are extinguished.",
+			"Temperature selectors – As needed",
+			"• Verify that the RAM DOOR FULL OPEN lights are illuminated.",
+			"RECIRC FAN switches – AUTO",
+			"Air conditioning PACK switches – AUTO or HIGH",
+			"ISOLATION VALVE switch – OPEN",
+			"Engine BLEED air switches – ON",
+			"APU BLEED air switch – ON",
+			"• Verify that the DUAL BLEED light is illuminated.",
+			"• Verify that the PACK lights are extinguished.",
+			"• Verify that the WING–BODY OVERHEAT lights are extinguished.",
+			"• Verify that the BLEED TRIP OFF lights are extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 65.82,
+		"y": 34.63,
+		"zoom": 1.8,
+		"label": "Cabin Pressurization Panel – Set",
+		"steps": [
+			"• Verify that the AUTO FAIL light is extinguished.",
+			"• Verify that the OFF SCHED DESCENT light is extinguished.",
+			"FLIGHT ALTITUDE indicator – Cruise altitude",
+			"LANDING ALTITUDE indicator – Destination field elevation",
+			"Pressurization mode selector – AUTO",
+			"• Verify that the ALTN light is extinguished.",
+			"• Verify that the MANUAL light is extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 42.05,
+		"y": 42.1,
+		"zoom": 1.8,
+		"label": "Lighting Panel – Set",
+		"steps": [
+			"LANDING light switches – RETRACT and OFF",
+			"RUNWAY TURNOFF light switches – OFF",
+			"TAXI light switch – OFF"
+		],
+		"relative": true
+	},
+	{
+		"x": 53.38,
+		"y": 42.1,
+		"zoom": 1.8,
+		"label": "Ignition Selector Switch – IGN R",
+		"steps": [
+			"This verifies the serviceability of the right ignitor power source from the AC STANDBY BUS.",
+			"Alternate the ignition select switch position on subsequent starts.",
+			"ENGINE START switches – OFF"
+		],
+		"relative": true
+	},
+	{
+		"x": 60.13,
+		"y": 42.1,
+		"zoom": 1.8,
+		"label": "Lighting Panel – Set",
+		"steps": [
+			"LOGO light switch – As needed",
+			"POSITION light switch – As needed",
+			"ANTI–COLLISION light switch – OFF",
+			"WING illumination switch – As needed",
+			"WHEEL WELL light switch – As needed"
+		],
+		"relative": true
+	},
+	{
+		"x": 62.1,
+		"y": 45.23,
+		"zoom": 1.8,
+		"label": "Mode Control Panel – Set",
+		"steps": [
+			"COURSE(S) – Set",
+			"FLIGHT DIRECTOR switch – ON",
+			"Move the switch for the pilot flying to ON first."
+		],
+		"relative": true
+	},
+	{
+		"x": 69.76,
+		"y": 45.23,
+		"zoom": 1.8,
+		"label": "EFIS Control Panel – Set",
+		"steps": [
+			"MINIMUMS reference selector – RADIO or BARO",
+			"MINIMUMS selector – Set to OPT ACCEL HT for take-off as a reference height",
+			"FLIGHT PATH VECTOR switch – As needed",
+			"METERS switch – As needed",
+			"BAROMETRIC reference selector – IN or HPA",
+			"BAROMETRIC selector – Set local altimeter setting",
+			"VOR/ADF switches – As needed",
+			"Mode selector – MAP",
+			"CENTER switch – As needed",
+			"Range selector – As needed",
+			"TRAFFIC switch – As needed",
+			"WEATHER RADAR – Off",
+			"• Verify that the weather radar indications are not shown on the MAP.",
+			"Map switches – As needed"
+		],
+		"relative": true
+	},
+	{
+		"x": 85.37,
+		"y": 78.96,
+		"zoom": 1.8,
+		"label": "Oxygen – Test and Set",
+		"steps": [
+			"Note: The oxygen test and set is not needed if the oxygen pressure drop test",
+			"was done at this crewmembers station during the Preliminary Preflight Procedure",
+			"See point 6 in the Preliminary Flow for the Oxygen Test procedure"
+		],
+		"relative": true
+	},
+	{
+		"x": 85.37,
+		"y": 53.64,
+		"zoom": 1.8,
+		"label": "Clock – Set",
+		"steps": [
+			"TIME/DATE pushbutton - UTC time",
+			"• Verify the date and time are correct."
+		],
+		"relative": true
+	},
+	{
+		"x": 71.94,
+		"y": 51.25,
+		"zoom": 1.8,
+		"label": "Display Select Panel – Set",
+		"steps": [
+			"MAIN PANEL DISPLAY UNITS selector – NORM",
+			"LOWER DISPLAY UNIT selector – NORM"
+		],
+		"relative": true
+	},
+	{
+		"x": 64.14,
+		"y": 51.25,
+		"zoom": 1.8,
+		"label": "TAKE-OFF CONFIG / CABIN ALT Lights – Verify Extinguished",
+		"relative": true
+	},
+	{
+		"x": 66.1,
+		"y": 49.56,
+		"zoom": 1.8,
+		"label": "Disengage Light TEST Switch – Test",
+		"steps": [
+			"Hold to 1:",
+			"Verify that the A/P light is illuminated steady amber.",
+			"Verify that the A/T light is illuminated steady amber.",
+			"Verify that the FMC light is illuminated steady amber.",
+			"Hold to 2:",
+			"Verify that the A/P light is illuminated steady red.",
+			"Verify that the A/T light is illuminated steady red.",
+			"Verify that the FMC light is illuminated steady amber."
+		],
+		"relative": true
+	},
+	{
+		"x": 71.87,
+		"y": 55.33,
+		"zoom": 1.8,
+		"label": "Flight Instruments – Check",
+		"steps": [
+			"Verify that the flight instrument indications are correct.",
+			"Verify that only these flags are shown:",
+			"• TCAS OFF",
+			"• NO VSPD until V–speeds are selected",
+			"Verify that the flight mode annunciations are correct:",
+			"• autothrottle mode is blank",
+			"• roll mode is blank",
+			"• pitch mode is blank",
+			"• AFDS status is FD.",
+			"Select the map mode."
+		],
+		"relative": true
+	},
+	{
+		"x": 70.53,
+		"y": 61.25,
+		"zoom": 1.8,
+		"label": "GROUND PROXIMITY Panel – Check",
+		"steps": [
+			"FLAP INHIBIT switch – Guard closed",
+			"GEAR INHIBIT switch – Guard closed",
+			"TERRAIN INHIBIT switch – Guard closed",
+			"• Verify that the GROUND PROXIMITY INOP light is extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 59.42,
+		"y": 50.8,
+		"zoom": 1.8,
+		"label": "Landing Gear Panel – Check",
+		"steps": [
+			"LANDING GEAR lever – DN",
+			"• Verify that the green landing gear indicator lights are illuminated.",
+			"• Verify that the red landing gear indicator lights are extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 53.09,
+		"y": 49.56,
+		"zoom": 1.8,
+		"label": "AUTO BRAKE Select Switch – RTO",
+		"steps": ["• Verify that the AUTO BRAKE DISARM light is extinguished"],
+		"relative": true
+	},
+	{
+		"x": 53.09,
+		"y": 51.05,
+		"zoom": 1.8,
+		"label": "ANTI-SKID INOP Light – Verify Extinguished",
+		"steps": ["• Verify that the AUTO BRAKE DISARM light is extinguished"],
+		"relative": true
+	},
+	{
+		"x": 49.16,
+		"y": 49.51,
+		"zoom": 1.8,
+		"label": "Engine Display Control Panel – Set",
+		"steps": [
+			"N1 SET selector – AUTO",
+			"SPEED REFERENCE selector – AUTO",
+			"FUEL FLOW switch – RATE",
+			"Move switch to RESET, then RATE."
+		],
+		"relative": true
+	},
+	{
+		"x": 51.9,
+		"y": 59.31,
+		"zoom": 1.8,
+		"label": "Engine Instruments – Check",
+		"steps": [
+			"Verify that the primary and secondary engine indications show existing conditions.",
+			"Verify that no exceedance is shown.",
+			"Verify that the hydraulic quantity indications do not show RF."
+		],
+		"relative": true
+	},
+	{
+		"x": 55.56,
+		"y": 77.72,
+		"zoom": 1.8,
+		"label": "STABILIZER TRIM Override Switch – Guard Closed",
+		"relative": true
+	},
+	{
+		"x": 52.18,
+		"y": 82.39,
+		"zoom": 1.8,
+		"label": "CARGO FIRE Panel – Check",
+		"steps": [
+			"This check is needed once per flight day.",
+			"DETECTOR SELECT switches – NORM",
+			"TEST switch – Push",
+			"• Verify that the fire warning bell sounds.",
+			"• Verify that the master FIRE WARN lights are illuminated.",
+			"Master FIRE WARN light – Push",
+			"• Verify that the master FIRE WARN lights are extinguished.",
+			"• Verify that the fire warning bell cancels.",
+			"• Verify that the green EXTINGUISHER test lights stay illuminated.",
+			"• Verify that the FWD and AFT cargo fire warning lights stay illuminated.",
+			"• Verify that the DETECTOR FAULT light stays extinguished.",
+			"• Verify that the DISCH light stays illuminated."
+		],
+		"relative": true
+	},
+	{
+		"x": 44.51,
+		"y": 82.39,
+		"zoom": 1.8,
+		"label": "Radio Tuning Panel – Set",
+		"steps": [
+			"WARNING: Do not key the HF radio while the airplane is being fueled.",
+			"Injury to personnel or fire can occur.",
+			"VHF communications radios – Set",
+			"VHF navigation radios – Set",
+			"ADF radios – Set"
+		],
+		"relative": true
+	},
+	{
+		"x": 52.88,
+		"y": 85.33,
+		"zoom": 1.8,
+		"label": "Transponder Panel – Set",
+		"steps": [
+			"The altitude and transponder source switches (as installed) must be selected to the PF side",
+			"Select 1 for Captain or select 2 for First Officer"
+		],
+		"relative": true
+	},
+	{
+		"x": 52.88,
+		"y": 87.92,
+		"zoom": 1.8,
+		"label": "WEATHER RADAR Control Panel – Set",
+		"relative": true
+	},
+	{
+		"x": 80.59,
+		"y": 87.92,
+		"zoom": 1.8,
+		"label": "Seat / Rudder Pedals / Harness – Adjust",
+		"relative": true
+	}
 ]

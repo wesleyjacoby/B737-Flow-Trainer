@@ -1,227 +1,219 @@
 [
-  {
-    "x": 2,
-    "y": 10,
-    "zoom": 1.8,
-    "label": "Emergency Equipment – Check",
-    "steps": [
-      "Fire extinguisher – Checked and stowed",
-      "Crash axe – Stowed",
-      "Escape ropes – Stowed",
-      "Other needed equipment – Checked and stowed"
-    ],
-    "relative": true
-  },
-  {
-    "x": 6,
-    "y": 10,
-    "zoom": 1.8,
-    "label": "Circuit Breakers – Check",
-    "steps": [
-      "Check P6 panel, P18 panel and control stand"
-    ],
-    "relative": true
-  },
-  {
-    "x": 10,
-    "y": 10,
-    "zoom": 1.8,
-    "label": "Manual Gear Extension Access Door – Closed",
-    "relative": true
-  },
-  {
-    "x": 14,
-    "y": 10,
-    "zoom": 1.8,
-    "label": "Maintenance Documents – Check",
-    "relative": true
-  },
-  {
-    "x": 18,
-    "y": 10,
-    "zoom": 1.8,
-    "label": "FLIGHT DECK ACCESS SYSTEM switch – Guard Closed",
-    "relative": true
-  },
-  {
-    "x": 22,
-    "y": 10,
-    "zoom": 1.8,
-    "label": "Oxygen Pressure Drop – Test",
-    "steps": [
-      "Note: The following oxygen pressure drop test only needs to be performed at one crewmember or observer station.",
+	{
+		"x": 2,
+		"y": 10,
+		"zoom": 1.8,
+		"label": "Emergency Equipment – Check",
+		"steps": [
+			"Fire extinguisher – Checked and stowed",
+			"Crash axe – Stowed",
+			"Escape ropes – Stowed",
+			"Other needed equipment – Checked and stowed"
+		],
+		"relative": true
+	},
+	{
+		"x": 6,
+		"y": 10,
+		"zoom": 1.8,
+		"label": "Circuit Breakers – Check",
+		"steps": ["Check P6 panel, P18 panel and control stand"],
+		"relative": true
+	},
+	{
+		"x": 10,
+		"y": 10,
+		"zoom": 1.8,
+		"label": "Manual Gear Extension Access Door – Closed",
+		"relative": true
+	},
+	{
+		"x": 14,
+		"y": 10,
+		"zoom": 1.8,
+		"label": "Maintenance Documents – Check",
+		"relative": true
+	},
+	{
+		"x": 18,
+		"y": 10,
+		"zoom": 1.8,
+		"label": "FLIGHT DECK ACCESS SYSTEM switch – Guard Closed",
+		"relative": true
+	},
+	{
+		"x": 22,
+		"y": 10,
+		"zoom": 1.8,
+		"label": "Oxygen Pressure Drop – Test",
+		"steps": [
+			"Note: The following oxygen pressure drop test only needs to be performed at one crewmember or observer station.",
 
-      "Note the crew oxygen pressure.",
-      "Oxygen mask – Stowed and doors closed",
-      "RESET/TEST switch – Push and hold",
-        "Verify that the yellow cross shows momentarily in the flow indicator.",
-      "EMERGENCY/Test selector – Push and hold",
-        "Continue to hold the RESET/TEST switch down and push the EMERGENCY/Test selector for 5 seconds.",
-      "Verify that the yellow cross shows continuously in the flow indicator.",
+			"Note the crew oxygen pressure.",
+			"Oxygen mask – Stowed and doors closed",
+			"RESET/TEST switch – Push and hold",
+			"Verify that the yellow cross shows momentarily in the flow indicator.",
+			"EMERGENCY/Test selector – Push and hold",
+			"Continue to hold the RESET/TEST switch down and push the EMERGENCY/Test selector for 5 seconds.",
+			"Verify that the yellow cross shows continuously in the flow indicator.",
 
-      "Verify that the crew oxygen pressure does not decrease more than 100 psig.",
-      "If the oxygen cylinder valve is not in the full open position, pressure can:",
-        "• decrease rapidly, or",
-        "• decrease more than 100 psig, or",
-        "• increase slowly back to normal.",
-      "Release the RESET/TEST switch and the EMERGENCY/Test selector.",
-      "Verify that the yellow cross does not show in the flow indicator.",
-      "Normal/100% switch – 100%",
-      "Crew oxygen pressure - Check.",
-        "Verify that the pressure is sufficient for dispatch."
-    ],
-    "relative": true
-  },
-  {
-    "x": 36.92,
-    "y": 7.3,
-    "zoom": 1.8,
-    "label": "ELT Switch – Guard Closed",
-    "steps": [
-      "Verify that the ELT light is extinghuished"
-    ],
-    "relative": true
-  },
-  {
-    "x": 38.4,
-    "y": 13.52,
-    "zoom": 1.8,
-    "label": "PSEU Light – Verify Extinguished",
-    "relative": true
-  },
-  {
-    "x": 42.76,
-    "y": 8.75,
-    "zoom": 1.8,
-    "label": "GPS Light – Verify Extinguished",
-    "relative": true
-  },
-  {
-    "x": 44.23,
-    "y": 8.75,
-    "zoom": 1.8,
-    "label": "ILS Light – Verify Extinguished",
-    "relative": true
-  },
-  {
-    "x": 45.64,
-    "y": 8.75,
-    "zoom": 1.8,
-    "label": "GLS Light – Verify Extinguished",
-    "relative": true
-  },
-  {
-    "x": 45.22,
-    "y": 11.28,
-    "zoom": 1.8,
-    "label": "IRS Mode Selectors – OFF, then NAV",
-    "steps": [
-      "Verify that the ON DC lights illuminate then extinguish.",
-      "Verify that the ALIGN lights are illuminated.",
-      "Note: The UNABLE REQD NAV PERF-RNP message may show until IRS alignment is complete."
-    ],
-    "relative": true
-  },
-  {
-    "x": 51.27,
-    "y": 8.7,
-    "zoom": 1.8,
-    "label": "SERVICE INTERPHONE Switch – OFF",
-    "relative": true
-  },
-  {
-    "x": 57.38,
-    "y": 7.05,
-    "zoom": 1.8,
-    "label": "ENGINE Panel – Set",
-    "steps": [
-      "Verify that the REVERSER lights are extinguished.",
-      "Verify that the ENGINE CONTROL lights are extinguished.",
-      "EEC switches – ON"
-    ],
-    "relative": true
-  },
-  {
-    "x": 58.37,
-    "y": 10.44,
-    "zoom": 1.8,
-    "label": "Oxygen Panel – Set",
-    "steps": [
-      "Note: PASSENGER OXYGEN switch activation causes deployment of the passenger oxygen masks.",
-      "PASSENGER OXYGEN switch - Guard closed",
-      "Verify that the PASS OXY ON light is extinguished."
-    ],
-    "relative": true
-  },
-  {
-    "x": 57.31,
-    "y": 13.72,
-    "zoom": 1.8,
-    "label": "Landing Gear Indicator Lights – Verify Illuminated",
-    "relative": true
-  },
-  {
-    "x": 65.54,
-    "y": 8.85,
-    "zoom": 1.8,
-    "label": "FLIGHT RECORDER Switch – Guard Closed",
-    "steps": [
-      "Verify that the OFF light is illuminated."
-    ],
-    "relative": true
-  },
-  {
-    "x": 68.64,
-    "y": 8.8,
-    "zoom": 1.8,
-    "label": "MACH AIRSPEED WARNING TEST Switchs – Push, one at a time",
-    "steps": [
-      "Verify that the clacker sounds."
-    ],
-    "relative": true
-  },
-  {
-    "x": 65.68,
-    "y": 11.78,
-    "zoom": 1.8,
-    "label": "STALL WARNING TEST Switchs – Push and hold, one at a time",
-    "steps": [
-      "Verify that each control column vibrates when the respective switch is pushed.",
-      "Note: The stall warning test requires that AC transfer busses are powered for up to 4 minutes.",
-      "Note: With hydraulic power off, the leading edge flaps can droop enough to cause an asymmetry signal,",
-      "resulting in a failure of the stall warning system test. Should this occur,",
-      "obtain a clearance to pressurize the hydraulic system, place the “B” system electric pump ON and retract the flaps.",
-      "When flaps are retracted repeat the test. At the completion of the test, turn the “B” system electric pump “OFF”."
-    ],
-    "relative": true
-  },
-  {
-    "x": 51.83,
-    "y": 62.83,
-    "zoom": 1.8,
-    "label": "Verify that the following are sufficient for flight:",
-    "steps": [
-      "• oxygen pressure",
-      "• hydraulic quantity",
-      "• engine oil quantity"
-    ],
-    "relative": true
-  },
-  {
-    "x": 48.03,
-    "y": 77.6,
-    "zoom": 1.8,
-    "label": "Parking Brake – As needed",
-    "steps": [
-      "Set the parking brake if the brake wear indicators are to be checked during the exterior inspection."
-    ],
-    "relative": true
-  },
-  {
-    "x": 60.13,
-    "y": 82.48,
-    "zoom": 1.8,
-    "label": "Departure ATIS – Obtain",
-    "relative": true
-  }
+			"Verify that the crew oxygen pressure does not decrease more than 100 psig.",
+			"If the oxygen cylinder valve is not in the full open position, pressure can:",
+			"• decrease rapidly, or",
+			"• decrease more than 100 psig, or",
+			"• increase slowly back to normal.",
+			"Release the RESET/TEST switch and the EMERGENCY/Test selector.",
+			"Verify that the yellow cross does not show in the flow indicator.",
+			"Normal/100% switch – 100%",
+			"Crew oxygen pressure - Check.",
+			"Verify that the pressure is sufficient for dispatch."
+		],
+		"relative": true
+	},
+	{
+		"x": 36.92,
+		"y": 7.3,
+		"zoom": 1.8,
+		"label": "ELT Switch – Guard Closed",
+		"steps": ["Verify that the ELT light is extinghuished"],
+		"relative": true
+	},
+	{
+		"x": 38.4,
+		"y": 13.52,
+		"zoom": 1.8,
+		"label": "PSEU Light – Verify Extinguished",
+		"relative": true
+	},
+	{
+		"x": 42.76,
+		"y": 8.75,
+		"zoom": 1.8,
+		"label": "GPS Light – Verify Extinguished",
+		"relative": true
+	},
+	{
+		"x": 44.23,
+		"y": 8.75,
+		"zoom": 1.8,
+		"label": "ILS Light – Verify Extinguished",
+		"relative": true
+	},
+	{
+		"x": 45.64,
+		"y": 8.75,
+		"zoom": 1.8,
+		"label": "GLS Light – Verify Extinguished",
+		"relative": true
+	},
+	{
+		"x": 45.22,
+		"y": 11.28,
+		"zoom": 1.8,
+		"label": "IRS Mode Selectors – OFF, then NAV",
+		"steps": [
+			"Verify that the ON DC lights illuminate then extinguish.",
+			"Verify that the ALIGN lights are illuminated.",
+			"Note: The UNABLE REQD NAV PERF-RNP message may show until IRS alignment is complete."
+		],
+		"relative": true
+	},
+	{
+		"x": 51.27,
+		"y": 8.7,
+		"zoom": 1.8,
+		"label": "SERVICE INTERPHONE Switch – OFF",
+		"relative": true
+	},
+	{
+		"x": 57.38,
+		"y": 7.05,
+		"zoom": 1.8,
+		"label": "ENGINE Panel – Set",
+		"steps": [
+			"Verify that the REVERSER lights are extinguished.",
+			"Verify that the ENGINE CONTROL lights are extinguished.",
+			"EEC switches – ON"
+		],
+		"relative": true
+	},
+	{
+		"x": 58.37,
+		"y": 10.44,
+		"zoom": 1.8,
+		"label": "Oxygen Panel – Set",
+		"steps": [
+			"Note: PASSENGER OXYGEN switch activation causes deployment of the passenger oxygen masks.",
+			"PASSENGER OXYGEN switch - Guard closed",
+			"Verify that the PASS OXY ON light is extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 57.31,
+		"y": 13.72,
+		"zoom": 1.8,
+		"label": "Landing Gear Indicator Lights – Verify Illuminated",
+		"relative": true
+	},
+	{
+		"x": 65.54,
+		"y": 8.85,
+		"zoom": 1.8,
+		"label": "FLIGHT RECORDER Switch – Guard Closed",
+		"steps": ["Verify that the OFF light is illuminated."],
+		"relative": true
+	},
+	{
+		"x": 68.64,
+		"y": 8.8,
+		"zoom": 1.8,
+		"label": "MACH AIRSPEED WARNING TEST Switchs – Push, one at a time",
+		"steps": ["Verify that the clacker sounds."],
+		"relative": true
+	},
+	{
+		"x": 65.68,
+		"y": 11.78,
+		"zoom": 1.8,
+		"label": "STALL WARNING TEST Switchs – Push and hold, one at a time",
+		"steps": [
+			"Verify that each control column vibrates when the respective switch is pushed.",
+			"Note: The stall warning test requires that AC transfer busses are powered for up to 4 minutes.",
+			"Note: With hydraulic power off, the leading edge flaps can droop enough to cause an asymmetry signal,",
+			"resulting in a failure of the stall warning system test. Should this occur,",
+			"obtain a clearance to pressurize the hydraulic system, place the “B” system electric pump ON and retract the flaps.",
+			"When flaps are retracted repeat the test. At the completion of the test, turn the “B” system electric pump “OFF”."
+		],
+		"relative": true
+	},
+	{
+		"x": 51.83,
+		"y": 62.83,
+		"zoom": 1.8,
+		"label": "Verify that the following are sufficient for flight:",
+		"steps": [
+			"• oxygen pressure",
+			"• hydraulic quantity",
+			"• engine oil quantity"
+		],
+		"relative": true
+	},
+	{
+		"x": 48.03,
+		"y": 77.6,
+		"zoom": 1.8,
+		"label": "Parking Brake – As needed",
+		"steps": [
+			"Set the parking brake if the brake wear indicators are to be checked during the exterior inspection."
+		],
+		"relative": true
+	},
+	{
+		"x": 60.13,
+		"y": 82.48,
+		"zoom": 1.8,
+		"label": "Departure ATIS – Obtain",
+		"relative": true
+	}
 ]
