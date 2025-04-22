@@ -228,6 +228,11 @@ document
     }
   });
 
+function loadMemoryFlow(memoryId) {
+  if (!memoryId) return;
+  loadFlow(memoryId);
+}
+
 // === SVG LINE DRAWING FUNCTION ===
 function drawLinesBetweenHotspots() {
   const svg = document.getElementById("hotspot-lines");

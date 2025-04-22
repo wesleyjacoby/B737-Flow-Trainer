@@ -19,6 +19,14 @@
         <button onclick="loadFlow('beforeTakeoff')">Before Takeoff</button>
         <button onclick="loadFlow('shutdown')">Shutdown</button>
         <!-- Add more buttons as needed -->
+        <label for="memory-dropdown">Memory Items:</label>
+        <select id="memory-dropdown" onchange="loadMemoryFlow(this.value)">
+            <option value="">-- Memory Items --</option>
+            <option value="emer-rapid-descent">Emergency Descent</option>
+            <option value="emer-engine-fire">Engine Fire</option>
+            <option value="emer-cabin-altitude">Cabin Altitude Warning</option>
+            <!-- Add more memory items as needed -->
+        </select>
     </div>
 
     <div class="image-container">

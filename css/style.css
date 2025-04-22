@@ -52,6 +52,21 @@ header {
   background: #1197dc;
 }
 
+/* .memory-selector {
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+} */
+
+#memory-dropdown {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /* Image container */
 .image-container {
   position: relative;

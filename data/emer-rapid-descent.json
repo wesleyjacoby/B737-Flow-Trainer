@@ -1,0 +1,21 @@
+[
+    {
+        "x": 44.51,
+        "y": 82.69,
+        "zoom": 1.8,
+        "label": "Announce the Emergency Descent",
+        "steps": [
+          "The pilot flying will advise the cabin crew, on the PA system,",
+          "of impending rapid descent. The pilot monitoring will advise",
+          "ATCand obtain the area altimeter setting."
+        ],
+        "relative": true
+      },
+      {
+        "x": 52.46,
+        "y": 32.94,
+        "zoom": 1.8,
+        "label": "Passengers Signs – ON",
+        "relative": true
+      }
+]
