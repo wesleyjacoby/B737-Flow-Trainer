@@ -1,0 +1,25 @@
+[
+ {
+    "x": 37.55,
+    "y": 20.89,
+    "zoom": 1.8,
+    "label": "Flight Control Panel – Check",
+    "steps": [
+        "FLIGHT CONTROL switches – Guards closed",
+        "Verify that the flight control LOW PRESSURE lights are illuminated.",
+        "Flight SPOILER switches – Guards closed",
+        "YAW DAMPER switch – ON",
+        "Verify that the YAW DAMPER light is extinguished.",
+        "Verify that the standby hydraulic LOW QUANTITY light is extinguished.",
+        "Verify that the standby hydraulic LOW PRESSURE light is extinguished.",
+        "Verify that the STBY RUD ON light is extinguished.",
+        "ALTERNATE FLAPS master switch – Guard closed",
+        "ALTERNATE FLAPS position switch – OFF",
+        "Verify that the FEEL DIFF PRESS light is extinguished.",
+        "Verify that the SPEED TRIM FAIL light is extinguished.",
+        "Verify that the MACH TRIM FAIL light is extinguished.",
+        "Verify that the AUTO SLAT FAIL light is extinguished."
+    ],
+    "relative": true
+    }
+]
