@@ -48,25 +48,23 @@
 		"label": "Oxygen Pressure Drop – Test",
 		"steps": [
 			"Note: The following oxygen pressure drop test only needs to be performed at one crewmember or observer station.",
-
 			"Note the crew oxygen pressure.",
 			"Oxygen mask – Stowed and doors closed",
 			"RESET/TEST switch – Push and hold",
-			"Verify that the yellow cross shows momentarily in the flow indicator.",
+			"• Verify that the yellow cross shows momentarily in the flow indicator.",
 			"EMERGENCY/Test selector – Push and hold",
 			"Continue to hold the RESET/TEST switch down and push the EMERGENCY/Test selector for 5 seconds.",
-			"Verify that the yellow cross shows continuously in the flow indicator.",
-
-			"Verify that the crew oxygen pressure does not decrease more than 100 psig.",
+			"• Verify that the yellow cross shows continuously in the flow indicator.",
+			"• Verify that the crew oxygen pressure does not decrease more than 100 psig.",
 			"If the oxygen cylinder valve is not in the full open position, pressure can:",
 			"• decrease rapidly, or",
 			"• decrease more than 100 psig, or",
 			"• increase slowly back to normal.",
 			"Release the RESET/TEST switch and the EMERGENCY/Test selector.",
-			"Verify that the yellow cross does not show in the flow indicator.",
+			"• Verify that the yellow cross does not show in the flow indicator.",
 			"Normal/100% switch – 100%",
 			"Crew oxygen pressure - Check.",
-			"Verify that the pressure is sufficient for dispatch."
+			"• Verify that the pressure is sufficient for dispatch."
 		],
 		"relative": true
 	},
@@ -145,7 +143,7 @@
 		"steps": [
 			"Note: PASSENGER OXYGEN switch activation causes deployment of the passenger oxygen masks.",
 			"PASSENGER OXYGEN switch - Guard closed",
-			"Verify that the PASS OXY ON light is extinguished."
+			"• Verify that the PASS OXY ON light is extinguished."
 		],
 		"relative": true
 	},

@@ -6,19 +6,19 @@
 		"label": "Flight Control Panel – Check",
 		"steps": [
 			"FLIGHT CONTROL switches – Guards closed",
-			"Verify that the flight control LOW PRESSURE lights are illuminated.",
+			"• Verify that the flight control LOW PRESSURE lights are illuminated.",
 			"Flight SPOILER switches – Guards closed",
 			"YAW DAMPER switch – ON",
-			"Verify that the YAW DAMPER light is extinguished.",
-			"Verify that the standby hydraulic LOW QUANTITY light is extinguished.",
-			"Verify that the standby hydraulic LOW PRESSURE light is extinguished.",
-			"Verify that the STBY RUD ON light is extinguished.",
+			"• Verify that the YAW DAMPER light is extinguished.",
+			"• Verify that the standby hydraulic LOW QUANTITY light is extinguished.",
+			"• Verify that the standby hydraulic LOW PRESSURE light is extinguished.",
+			"• Verify that the STBY RUD ON light is extinguished.",
 			"ALTERNATE FLAPS master switch – Guard closed",
 			"ALTERNATE FLAPS position switch – OFF",
-			"Verify that the FEEL DIFF PRESS light is extinguished.",
-			"Verify that the SPEED TRIM FAIL light is extinguished.",
-			"Verify that the MACH TRIM FAIL light is extinguished.",
-			"Verify that the AUTO SLAT FAIL light is extinguished."
+			"• Verify that the FEEL DIFF PRESS light is extinguished.",
+			"• Verify that the SPEED TRIM FAIL light is extinguished.",
+			"• Verify that the MACH TRIM FAIL light is extinguished.",
+			"• Verify that the AUTO SLAT FAIL light is extinguished."
 		],
 		"relative": true
 	},
@@ -166,7 +166,7 @@
 		"y": 26.47,
 		"zoom": 1.8,
 		"label": "EQUIPMENT COOLING Switches – NORM",
-		"steps": ["• Verify that the OFF lights are extinguished."],
+		"steps": ["Verify that the OFF lights are extinguished."],
 		"relative": true
 	},
 	{
@@ -174,7 +174,7 @@
 		"y": 30.85,
 		"zoom": 1.8,
 		"label": "EMERGENCY EXIT LIGHTS Switch – Guard Closed",
-		"steps": ["• Verify that the NOT ARMED light is extinguished."],
+		"steps": ["Verify that the NOT ARMED light is extinguished."],
 		"relative": true
 	},
 	{
@@ -193,7 +193,7 @@
 		"y": 38.86,
 		"zoom": 1.8,
 		"label": "Windshield WIPER Selectors – PARK",
-		"steps": ["• Verify that the windshield wipers are stowed."],
+		"steps": ["Verify that the windshield wipers are stowed."],
 		"relative": true
 	},
 	{
@@ -214,7 +214,7 @@
 		"y": 20.65,
 		"zoom": 1.8,
 		"label": "PROBE HEAT Switches – AUTO or OFF",
-		"steps": ["• Verify that all lights are illuminated."],
+		"steps": ["Verify that all lights are illuminated."],
 		"relative": true
 	},
 	{
