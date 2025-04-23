@@ -1,0 +1,84 @@
+[
+	{
+		"x": 85.51,
+		"y": 53.49,
+		"zoom": 1.8,
+		"label": "CLOCK – Start",
+		"steps": [
+			"Start the timer for the required 3 minutes engine thermal stabilization at idle thrust.",
+			"Use other lights as needed."
+		],
+		"relative": true
+	},
+	{
+		"x": 39.1,
+		"y": 41.35,
+		"zoom": 1.8,
+		"label": "Landing Lights – OFF",
+		"relative": true
+	},
+	{
+		"x": 57.52,
+		"y": 20.35,
+		"zoom": 1.8,
+		"label": "PROBE HEAT – AUTO/OFF",
+		"relative": true
+	},
+	{
+		"x": 62.03,
+		"y": 41.65,
+		"zoom": 1.8,
+		"label": "STROBE Light Switch – STEADY",
+		"relative": true
+	},
+	{
+		"x": 56.12,
+		"y": 41.65,
+		"zoom": 1.8,
+		"label": "ENGINE START Switches – OFF",
+		"relative": true
+	},
+	{
+		"x": 47.33,
+		"y": 41.65,
+		"zoom": 1.8,
+		"label": "APU – START",
+		"steps": ["Consider taxi time and fuel savings."],
+		"relative": true
+	},
+	{
+		"x": 69.73,
+		"y": 46.57,
+		"zoom": 1.8,
+		"label": "Weather Radar – OFF",
+		"relative": true
+	},
+	{
+		"x": 53.31,
+		"y": 49.71,
+		"zoom": 1.8,
+		"label": "AUTO BRAKE – OFF",
+		"relative": true
+	},
+	{
+		"x": 56.89,
+		"y": 68.71,
+		"zoom": 1.8,
+		"label": "Flap Lever – UP",
+		"relative": true
+	},
+	{
+		"x": 51.48,
+		"y": 84.98,
+		"zoom": 1.8,
+		"label": "Transponder – Remains in TA/RA",
+		"relative": true
+	},
+	{
+		"x": 62.03,
+		"y": 84.98,
+		"zoom": 1.8,
+		"label": "NAV Radio – Select VOR Freq on both Navigation Panels",
+		"relative": true
+	}
+]
