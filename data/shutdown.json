@@ -1,0 +1,108 @@
+[
+	{
+		"x": 45.43,
+		"y": 36.01,
+		"zoom": 1.8,
+		"label": "Electrical Power – Set",
+		"steps": [
+			"If APU power is needed:",
+			"• Verify that the APU GENERATOR OFF BUS light is illuminated.",
+			"APU GENERATOR bus switches – ON",
+			"• Verify that the SOURCE OFF lights are extinguished.",
+			"If external power is needed:",
+			"• Verify that the GRD POWER AVAILABLE light is illuminated.",
+			"GRD POWER switch – ON",
+			"• Verify that the SOURCE OFF lights are extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 52.46,
+		"y": 33.07,
+		"zoom": 1.8,
+		"label": "FASTEN SEATBELTS Switch – OFF",
+		"relative": true
+	},
+	{
+		"x": 63.99,
+		"y": 41.63,
+		"zoom": 1.8,
+		"label": "ANTI COLLISION LIGHT Switch – OFF",
+		"relative": true
+	},
+	{
+		"x": 37.13,
+		"y": 37.65,
+		"zoom": 1.8,
+		"label": "FUEL PUMP Switches – OFF",
+		"relative": true
+	},
+	{
+		"x": 57.38,
+		"y": 24.72,
+		"zoom": 1.8,
+		"label": "WING / ENGINE ANTI-ICE Switches – OFF",
+		"relative": true
+	},
+	{
+		"x": 57.38,
+		"y": 28.2,
+		"zoom": 1.8,
+		"label": "Hydraulic Panel – Set",
+		"steps": [
+			"ENGINE HYDRAULIC PUMPS switches - ON",
+			"ELECTRIC HYDRAULIC PUMPS switches - OFF"
+		],
+		"relative": true
+	},
+	{
+		"x": 63.08,
+		"y": 28.2,
+		"zoom": 1.8,
+		"label": "Air Conditioning PACK Switches – AUTO",
+		"relative": true
+	},
+	{
+		"x": 65.82,
+		"y": 28.2,
+		"zoom": 1.8,
+		"label": "ISOLATION VALVE Switch – OPEN",
+		"relative": true
+	},
+	{
+		"x": 63.01,
+		"y": 31.58,
+		"zoom": 1.8,
+		"label": "Engine BLEED Air Switches – ON",
+		"relative": true
+	},
+	{
+		"x": 65.4,
+		"y": 31.58,
+		"zoom": 1.8,
+		"label": "APU BLEED Air Switch – ON",
+		"relative": true
+	},
+	{
+		"x": 62.24,
+		"y": 46.56,
+		"zoom": 1.8,
+		"label": "FLIGHT DIRECTOR Switches – OFF",
+		"relative": true
+	},
+	{
+		"x": 51.48,
+		"y": 85.01,
+		"zoom": 1.8,
+		"label": "Transponder – STBY",
+		"relative": true
+	},
+	{
+		"x": 60.83,
+		"y": 98.85,
+		"zoom": 1.8,
+		"label": "Flight Deck Door – Unlock",
+		"steps": ["Verify that the CAB DOOR UNLOCKED light is illuminated."],
+		"relative": true
+	}
+]
