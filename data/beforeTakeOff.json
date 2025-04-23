@@ -1,0 +1,20 @@
+[
+	{
+		"x": 52.39,
+		"y": 33.19,
+		"zoom": 1.8,
+		"label": "Cabin Crew – Notify",
+		"steps": [
+			"Turn seatbelt sign OFF, then ON.",
+			"Verify that the cabin is secure."
+		],
+		"relative": true
+	},
+	{
+		"x": 69.76,
+		"y": 46.62,
+		"zoom": 1.8,
+		"label": "Weather Radar / Terrain Display – As Needed",
+		"relative": true
+	}
+]
