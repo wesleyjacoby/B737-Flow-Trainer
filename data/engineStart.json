@@ -1,0 +1,39 @@
+[
+	{
+		"x": 50.35,
+		"y": 50.95,
+		"zoom": 1.8,
+		"label": "Select the Secondary Engine Indications",
+		"relative": true
+	},
+	{
+		"x": 63.15,
+		"y": 28.02,
+		"zoom": 1.8,
+		"label": "Air Conditioning PACK Switches – OFF",
+		"relative": true
+	},
+	{
+		"x": 50.21,
+		"y": 41.0,
+		"zoom": 1.8,
+		"label": "ENGINE START Switch – GND",
+		"steps": [
+			"Verify that the N2 RPM increases.",
+			"Monitor fuel flow and EGT indications.",
+			"At 56% N2, verify that the ENGINE START switch moves to OFF.",
+			"If not, move the ENGINE START switch to OFF.",
+			"Verify that the START VALVE OPEN alert extinguishes when the ENGINE START switch moves to OFF.",
+			"Call “STARTER CUTOUT.”",
+			"Monitor N1, N2, EGT, fuel flow and oil pressure for normal indications while the engine accelerates to a stable idle.",
+			"After the engine is stable at idle, start the other engine.",
+			"Note: The engine is stable at idle when the EGT start limit redline is no longer shown.",
+			"Do the ABORTED ENGINE START checklist for one or more of the following abort start conditions:",
+			"• the N1 or N2 does not increase or increases very slowly after the EGT increases",
+			"• there is no oil pressure indication by the time that the engine is stable at idle",
+			"• the EGT does not increase by 15 seconds after the engine start lever is moved to IDLE detent",
+			"• the EGT quickly nears or exceeds the start limit"
+		],
+		"relative": true
+	}
+]
