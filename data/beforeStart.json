@@ -1,0 +1,127 @@
+[
+	{
+		"x": 79.89,
+		"y": 82.44,
+		"zoom": 1.8,
+		"label": "Before Start Procedure – Complete",
+		"steps": [
+			"Departure Clearance – Obtain",
+			"• Both pilots must copy the departure clearance together.",
+			"Taxi and Take-Off Briefings – Complete",
+			"• See SFR 298 part 1.3.6.4 for the taxi and take-off briefing format",
+			"Take-Off Performance – Check",
+			"See SFR 298 part 1.3.6.6 for OTP data entry procedure"
+		],
+		"relative": true
+	},
+	{
+		"x": 60.76,
+		"y": 98.81,
+		"zoom": 1.8,
+		"label": "Flight Deck Door – Closed and Locked",
+		"steps": [
+			"Verify that the CAB DOOR UNLOCKED light is extinguished, OR",
+			"Verify that the LOCK FAIL light is extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 61.67,
+		"y": 61.3,
+		"zoom": 1.8,
+		"label": "CDU Display – Set",
+		"steps": [
+			"Normally the PF selects the TAKEOFF REF page.",
+			"Normally the PM selects the LEGS page."
+		],
+		"relative": true
+	},
+	{
+		"x": 50.35,
+		"y": 53.24,
+		"zoom": 1.8,
+		"label": "N1 Bugs – Check",
+		"steps": ["Verify that the N1 reference bugs are correct."],
+		"relative": true
+	},
+	{
+		"x": 50.35,
+		"y": 53.24,
+		"zoom": 1.8,
+		"label": "IAS Bugs – Set",
+		"steps": [
+			"Verify that the speed bugs are at V1, VR, V2 + 15, and flaps up maneuvering speed."
+		],
+		"relative": true
+	},
+	{
+		"x": 44.59,
+		"y": 82.44,
+		"zoom": 1.8,
+		"label": "Start Clearance – Obtain",
+		"steps": ["Obtain a clearance to start the engines."],
+		"relative": true
+	},
+	{
+		"x": 37.13,
+		"y": 37.07,
+		"zoom": 1.8,
+		"label": "Fuel Panel – Set",
+		"steps": [
+			"If the center tank fuel quantity exceeds 453 kilograms:",
+			"LEFT and RIGHT CENTER FUEL PUMPS switches – ON",
+			"• Verify that the LOW PRESSURE lights illuminate momentarily and then extinguish.",
+			"If the LOW PRESSURE light stays illuminated turn off the CENTER FUEL PUMPS switch.",
+			"AFT and FORWARD FUEL PUMPS switches – ON",
+			"• Verify that the LOW PRESSURE lights are extinguished."
+		],
+		"relative": true
+	},
+	{
+		"x": 57.52,
+		"y": 28.12,
+		"zoom": 1.8,
+		"label": "Hydraulic Panel – Set",
+		"steps": [
+			"If pushback is not needed, or if pushback is needed and the nose gear steering lockout pin is installed:",
+			"Electric HYDRAULIC PUMP switches – ON",
+			"• Verify that the electric pump LOW PRESSURE lights are extinguished.",
+			"Verify that the brake pressure is 2,800 psi minimum.",
+			"Verify that the system A and B pressures are 2,800 psi minimum.",
+			"If pushback is needed and the nose gear steering lockout pin is not installed:",
+			"WARNING: Do not pressurize hydraulic system A. Unwanted tow bar movement can occur.",
+			"System A HYDRAULIC PUMP switches – OFF",
+			"• Verify that the system A pump LOW PRESSURE lights are illuminated.",
+			"System B electric HYDRAULIC PUMP switch – ON",
+			"• Verify that the system B electric pump LOW PRESSURE light is extinguished.",
+			"Verify that the brake pressure is 2,800 psi minimum.",
+			"Verify that the system B pressure is 2,800 psi minimum."
+		],
+		"relative": true
+	},
+	{
+		"x": 63.92,
+		"y": 41.6,
+		"zoom": 1.8,
+		"label": "ANTI COLLISION Light Switch – ON",
+		"relative": true
+	},
+	{
+		"x": 51.48,
+		"y": 84.98,
+		"zoom": 1.8,
+		"label": "Transponder – TA/RA",
+		"steps": [
+			"SOPs may be incorrect. Should probably say:",
+			"Transponder – ALT OFF"
+		],
+		"relative": true
+	},
+	{
+		"x": 60.13,
+		"y": 82.34,
+		"zoom": 1.8,
+		"label": "VHF Communication Panel 2 – Set 121.5 to ACTIVE",
+		"relative": true
+	}
+]
