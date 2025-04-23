@@ -111,10 +111,6 @@
 		"y": 84.98,
 		"zoom": 1.8,
 		"label": "Transponder – TA/RA",
-		"steps": [
-			"SOPs may be incorrect. Should probably say:",
-			"Transponder – ALT OFF"
-		],
 		"relative": true
 	},
 	{
