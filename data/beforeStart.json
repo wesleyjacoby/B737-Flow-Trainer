@@ -37,14 +37,6 @@
 		"relative": true
 	},
 	{
-		"x": 50.35,
-		"y": 53.24,
-		"zoom": 1.8,
-		"label": "N1 Bugs – Check",
-		"steps": ["Verify that the N1 reference bugs are correct."],
-		"relative": true
-	},
-	{
 		"x": 74.61,
 		"y": 55.21,
 		"zoom": 1.8,
@@ -52,6 +44,14 @@
 		"steps": [
 			"Verify that the speed bugs are at V1, VR, V2 + 15, and flaps up maneuvering speed."
 		],
+		"relative": true
+	},
+	{
+		"x": 50.35,
+		"y": 53.24,
+		"zoom": 1.8,
+		"label": "N1 Bugs – Check",
+		"steps": ["Verify that the N1 reference bugs are correct."],
 		"relative": true
 	},
 	{
