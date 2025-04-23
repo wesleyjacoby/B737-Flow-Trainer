@@ -1,0 +1,31 @@
+[
+	{
+		"x": 62.03,
+		"y": 41.55,
+		"zoom": 1.8,
+		"label": "Lights – Set",
+		"steps": [
+			"When entering the departure runway, set the STROBE light switch to ON.",
+			"Use other lights as needed."
+		],
+		"relative": true
+	},
+	{
+		"x": 51.48,
+		"y": 84.98,
+		"zoom": 1.8,
+		"label": "Transponder – TA/RA",
+		"relative": true
+	},
+	{
+		"x": 39.17,
+		"y": 41.3,
+		"zoom": 1.8,
+		"label": "Landing Lights – ON",
+		"steps": [
+			"When cleared for takeoff, set the FIXED LANDING light switches to ON, OR",
+			"When cleared for takeoff, set the LANDING light switches to ON."
+		],
+		"relative": true
+	}
+]
