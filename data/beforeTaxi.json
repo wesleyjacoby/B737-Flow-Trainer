@@ -1,0 +1,83 @@
+[
+	{
+		"x": 45.43,
+		"y": 35.68,
+		"zoom": 1.8,
+		"label": "GENERATOR 1 and 2 Switches – ON",
+		"relative": true
+	},
+	{
+		"x": 57.52,
+		"y": 20.26,
+		"zoom": 1.8,
+		"label": "PROBE HEAT Switches – ON",
+		"relative": true
+	},
+	{
+		"x": 57.31,
+		"y": 25.03,
+		"zoom": 1.8,
+		"label": "WING / ENGINE ANTI-ICE Switches – As Needed",
+		"relative": true
+	},
+	{
+		"x": 63.08,
+		"y": 28.27,
+		"zoom": 1.8,
+		"label": "PACK Switches – AUTO",
+		"relative": true
+	},
+	{
+		"x": 65.75,
+		"y": 28.27,
+		"zoom": 1.8,
+		"label": "ISOLATION VALVE Switch – AUTO",
+		"relative": true
+	},
+	{
+		"x": 65.75,
+		"y": 31.1,
+		"zoom": 1.8,
+		"label": "APU BLEED AIR Switch – OFF",
+		"relative": true
+	},
+	{
+		"x": 47.19,
+		"y": 41.6,
+		"zoom": 1.8,
+		"label": "APU Switch – OFF",
+		"relative": true
+	},
+	{
+		"x": 50.21,
+		"y": 41.6,
+		"zoom": 1.8,
+		"label": "ENGINE START Switches – CONT",
+		"relative": true
+	},
+	{
+		"x": 76.51,
+		"y": 46.23,
+		"zoom": 1.8,
+		"label": "Recall – Check",
+		"steps": [
+			"Verify that all system annunciator panel lights illuminate and then extinguish."
+		],
+		"relative": true
+	},
+	{
+		"x": 50.35,
+		"y": 51.0,
+		"zoom": 1.8,
+		"label": "Blank the lower display unit.",
+		"relative": true
+	},
+	{
+		"x": 56.89,
+		"y": 68.81,
+		"zoom": 1.8,
+		"label": "Flap Lever – Set Take-Off Flaps",
+		"steps": ["Verify that the LE FLAPS EXT green light is illuminated."],
+		"relative": true
+	}
+]

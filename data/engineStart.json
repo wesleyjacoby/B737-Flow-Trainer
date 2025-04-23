@@ -19,6 +19,7 @@
 		"zoom": 1.8,
 		"label": "ENGINE START Switch – GND",
 		"steps": [
+			"Start the timer when the engine START VALVE OPEN light illuminates.",
 			"Verify that the N2 RPM increases.",
 			"Monitor fuel flow and EGT indications.",
 			"At 56% N2, verify that the ENGINE START switch moves to OFF.",
