@@ -1,0 +1,50 @@
+[
+	{
+		"x": 45.29,
+		"y": 11.23,
+		"zoom": 1.8,
+		"label": "IRS Mode Selectors – OFF",
+		"relative": true
+	},
+	{
+		"x": 57.45,
+		"y": 18.1,
+		"zoom": 1.8,
+		"label": "WINDOW HEAT Switches – OFF",
+		"relative": true
+	},
+	{
+		"x": 63.15,
+		"y": 28.1,
+		"zoom": 1.8,
+		"label": "Air Conditioning PACK Switches – OFF",
+		"relative": true
+	},
+	{
+		"x": 51.9,
+		"y": 30.94,
+		"zoom": 1.8,
+		"label": "EMERGENCY EXIT LIGHT Switches – OFF",
+		"relative": true
+	},
+	{
+		"x": 60.13,
+		"y": 82.18,
+		"zoom": 1.8,
+		"label": "VHF COMM Panel 2 – Set 121.5 ACTIVE",
+		"steps": [
+			"Monitor VHF 2 to verify ELT has not inadvertently activated and transmitting."
+		],
+		"relative": true
+	},
+	{
+		"x": 60.13,
+		"y": 88.7,
+		"zoom": 1.8,
+		"label": "Audio Select Panel – Select FLT / SERV",
+		"steps": [
+			"This prevents inadvertent transmission on VHF Comm panle 1 and 2."
+		],
+		"relative": true
+	}
+]
